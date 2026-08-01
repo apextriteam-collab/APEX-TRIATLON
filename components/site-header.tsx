@@ -8,8 +8,12 @@ import { Button } from "@/components/ui/button"
 const NAV_LINKS = [
   { label: "Club", href: "#club" },
   { label: "Disciplinas", href: "#disciplinas" },
-  { label: "Categorías", href: "#Categorias" },
+  { label: "Categorías", href: "#categorias" },
+  { label: "Horarios", href: "#horarios" },
+  { label: "Membresías", href: "#programas" },
   { label: "Eventos", href: "#eventos" },
+  { label: "Entrenadores", href: "#entrenadores" },
+
 ]
 
 export function SiteHeader() {
@@ -29,7 +33,7 @@ export function SiteHeader() {
 />
         </a>
 
-        <nav className="hidden items-center gap-8 md:flex" aria-label="Navegación principal">
+        <nav className="hidden items-center gap-6 lg:gap-8 md:flex" aria-label="Navegación principal">
           {NAV_LINKS.map((link) => (
             <a
               key={link.href}

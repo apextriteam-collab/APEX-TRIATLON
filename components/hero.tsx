@@ -32,7 +32,7 @@ export function Hero() {
               <ArrowRight className="size-4" />
             </Button>
             <Button
-              render={<a href="#Categorías" />}
+              render={<a href="#categorias" />}
               nativeButton={false}
               size="lg"
               variant="outline"
@@ -45,17 +45,17 @@ export function Hero() {
           <dl className="mt-10 grid max-w-md grid-cols-3 gap-6 border-t border-brand/15 pt-6">
             <div>
               <dt className="text-xs font-medium uppercase tracking-wide text-muted-foreground">Atletas</dt>
-              <dd className="font-display text-2xl font-bold text-foreground">+350</dd>
+              <dd className="font-display text-1xl font-bold text-foreground">Proximamente...</dd>
             </div>
             <div>
               <dt className="text-xs font-medium uppercase tracking-wide text-muted-foreground">Podios</dt>
-              <dd className="font-display text-2xl font-bold text-foreground">+120</dd>
+              <dd className="font-display text-1xl font-bold text-foreground">Proximamente...</dd>
             </div>
             <div>
               <dt className="text-xs font-medium uppercase tracking-wide text-muted-foreground">Años</dt>
-              <dd className="font-display text-2xl font-bold text-foreground">10</dd>
+              <dd className="font-display text-1xl font-bold text-foreground">0.1</dd>
             </div>
-          </dl>
+          </dl> 
         </div>
 
         <div className="relative animate-float-up">
@@ -73,7 +73,7 @@ export function Hero() {
 
           <div className="absolute -bottom-5 left-1/2 flex -translate-x-1/2 items-center gap-6 rounded-2xl border border-border bg-background/95 px-6 py-4 shadow-xl backdrop-blur">
             {[
-              { icon: Waves, label: "Nado" },
+              { icon: Waves, label: "Natación" },
               { icon: Bike, label: "Ciclismo" },
               { icon: Footprints, label: "Carrera" },
             ].map(({ icon: Icon, label }) => (

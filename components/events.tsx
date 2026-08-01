@@ -1,18 +1,18 @@
 import { MapPin, ArrowUpRight } from "lucide-react"
 
 const EVENTS = [
-  { day: "12", month: "Mar", title: "Triatlón Sprint Costa Azul", place: "Playa del Sol", type: "Sprint" },
-  { day: "28", month: "Abr", title: "Duatlón de Montaña APEX", place: "Sierra Alta", type: "Duatlón" },
-  { day: "17", month: "Jun", title: "Olímpico Ciudad APEX", place: "Lago Central", type: "Olímpico" },
-  { day: "09", month: "Sep", title: "Media Distancia 70.3", place: "Bahía Norte", type: "70.3" },
+  { day: "12", month: "Mar", title: "Proximamente", place: "Popayán", type: "Sprint" },
+  { day: "28", month: "Abr", title: "Proximamente", place: "Popayán", type: "Duatlón" },
+  { day: "17", month: "Jun", title: "Proximamente", place: "Popayán", type: "Olímpico" },
+  { day: "09", month: "Sep", title: "Proximamente", place: "Popayán", type: "70.3" },
 ]
 
 export function Events() {
   return (
-    <section id="eventos" className="bg-gradient-brand-soft">
-      <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+    <section id="eventos" className="bg-black py-20 border-b border-white/10">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
         <div className="max-w-2xl">
-          <span className="text-sm font-semibold uppercase tracking-widest text-white">Calendario</span>
+          <span className="text-xs font-semibold uppercase tracking-widest text-brand">Calendario</span>
           <h2 className="mt-3 font-display text-3xl font-bold tracking-tight text-foreground text-balance sm:text-4xl">
             Próximos eventos y competencias
           </h2>

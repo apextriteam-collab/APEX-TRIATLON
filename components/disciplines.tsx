@@ -4,13 +4,13 @@ const DISCIPLINES = [
   {
     title: "Natación",
     image: "/images/disc-swim.png",
-    desc: "Técnica de aguas abiertas y piscina para nadar más rápido gastando menos energía.",
+    desc: "Técnica de aguas abiertas y piscina para nadar más rápido gestionando mejor tu energía.",
     distance: "1.5 km",
   },
   {
     title: "Ciclismo",
     image: "/images/disc-bike.png",
-    desc: "Potencia, cadencia y estrategia sobre la bicicleta con planes de entrenamiento por zonas.",
+    desc: "Potencia, cadencia y estrategia sobre la bicicleta.",
     distance: "40 km",
   },
   {
@@ -23,7 +23,8 @@ const DISCIPLINES = [
 
 export function Disciplines() {
   return (
-    <section id="disciplinas" className="mx-auto max-w-6xl px-4 py-20 sm:px-6">
+    <section id="disciplinas" className="bg-black py-20 border-b border-white/10">
+      <div className="mx-auto max-w-6xl px-4 sm:px-6">
       <div className="max-w-2xl">
         <span className="text-sm font-semibold uppercase tracking-widest text-white">Tres deportes, un objetivo</span>
         <h2 className="mt-3 font-display text-3xl font-bold tracking-tight text-foreground text-balance sm:text-4xl">
@@ -59,6 +60,7 @@ export function Disciplines() {
             </div>
           </article>
         ))}
+      </div>
       </div>
     </section>
   )
