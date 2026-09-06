@@ -28,7 +28,7 @@ const MEMBERSHIP_LEVELS = [
     category: "DISCOVER",
     subtitle: "Exploración",
     icon: Search,
-    price: "$90.000",
+    price: "$170.000",
     period: "MENSUALES",
     fee: "MATRÍCULA ANUAL $80.000",
     btnText: "ELEGIR DISCOVER",
